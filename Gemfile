@@ -37,6 +37,7 @@ gem 'paperclip', '~> 6.0'
 gem 'cocoon', '~> 1.2', '>= 1.2.11'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'aws-sdk', '~> 2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
