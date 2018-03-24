@@ -21,7 +21,7 @@
 		.col-md-6
 			#directions
 				%h2 Directions
-				%ol
+				%ol{:reversed => "", :start => "1"}
 					- @recipe.directions.each do |direction|
 						%li= direction.step
 
