@@ -21,7 +21,7 @@
 		.col-md-6
 			#directions
 				%h2 Directions
-				%ul { direction: rtl }
+				%ul
 					- @recipe.directions.each do |direction|
 						%li= direction.step
 
