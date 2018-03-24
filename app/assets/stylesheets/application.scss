@@ -131,7 +131,11 @@ body {
 		}
 	}
 }
-
+#directions {
+	ul {
+		dir: rtl;
+	}
+}
 .form-inline {
 	margin-top: 15px;
 }
