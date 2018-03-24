@@ -124,6 +124,7 @@ body {
 #ingredients, #directions {
 	margin-bottom: 50px;
 	ul, ol {
+		display: flex; flex-direction: column-reverse;
 		padding-left: 18px;
 		li {
 			padding: 1em 0;
@@ -131,9 +132,14 @@ body {
 		}
 	}
 }
-#directions ul {
-	display: flex; flex-direction: column-reverse;
-}
+// 
+// #ingredients ul {
+// 	display: flex; flex-direction: column-reverse;
+// }
+//
+// #directions ul {
+// 	display: flex; flex-direction: column-reverse;
+// }
 
 .form-inline {
 	margin-top: 15px;
