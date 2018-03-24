@@ -15,3 +15,8 @@
 //= require cocoon
 //= require turbolinks
 //= require_tree .
+
+var directions = document.getElementById("directions");
+var i = directions.childNodes.length;
+while (i--)
+  directions.appendChild(directions.childNodes[i]);
