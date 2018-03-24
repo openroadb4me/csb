@@ -15,8 +15,3 @@
 //= require cocoon
 //= require turbolinks
 //= require_tree .
-
-var step = document.getElementById("step");
-var i = step.childNodes.length;
-while (i--)
-  step.appendChild(step.childNodes[i]);
