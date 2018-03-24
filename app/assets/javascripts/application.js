@@ -16,7 +16,7 @@
 //= require turbolinks
 //= require_tree .
 
-var directions = document.getElementById("directions");
-var i = directions.childNodes.length;
+var step = document.getElementById("step");
+var i = step.childNodes.length;
 while (i--)
-  directions.appendChild(directions.childNodes[i]);
+  step.appendChild(step.childNodes[i]);
